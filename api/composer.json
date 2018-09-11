@@ -1,40 +1,13 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
-    "type": "project",
-    "keywords": [
-        "framework",
-        "thinkphp",
-        "ORM"
-    ],
-    "homepage": "http://thinkphp.cn/",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
         "topthink/framework": "^5.0",
-        "topthink/think-mongo": "^1.0",
         "topthink/think-image": "^1.0",
-        "topthink/think-testing": "^1.0",
-        "topthink/think-sae": "^1.0",
-        "topthink/think-queue": "^1.0",
-        "topthink/think-migration": "^1.0"
-    },
-    "extra": {
-        "think-path": "thinkphp"
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
+        "qiniu/php-sdk": "^7.1",
+        "bupt1987/html-parser": "^3.0",
+        "phpoffice/phpexcel": "^1.8",
+        "flc/alidayu": "^2.0",
+        "php-amqplib/php-amqplib": "^2.7",
+        "tp5er/tp5-databackup": "dev-master"
     }
 }
