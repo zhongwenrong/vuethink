@@ -8,17 +8,13 @@ return [
     // 数据库类型
     'type'           => 'mysql',
     // 服务器地址
-    'hostname'       => 'rm-wz90lh8216zjxfifsto.mysql.rds.aliyuncs.com',
-    // 'hostname'       => 'rm-wz986824hx3u5569zeo.mysql.rds.aliyuncs.com',
+    'hostname'       => '127.0.0.1',
     // 数据库名
-    'database'       => 'qh_daichao_test',
-    // 'database'       => 'qh_hongxin',
+    'database'       => 'test',
     // 用户名
-    'username'       => 'ju8v_71g',
-    // 'username'       => 'ey47_n7q12',
+    'username'       => 'root',
     // 密码
-    'password'       => 'd%bkTRKsXxZi3v$K',
-    // 'password'       => 'WPDUoZ48n6m0ooqF',
+    'password'       => 'root',
     // 端口
     'hostport'       => '3306',
     // 连接dsn
